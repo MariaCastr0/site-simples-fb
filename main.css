@@ -1,5 +1,10 @@
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
 body {
-    font-family: monospace;
+    background: var(--bg);
 }
     
 ul { 
@@ -18,7 +23,18 @@ li {
     font-family: monospace;
 }
 
+:root {
+    --green: #00FF00
+    --white: #ffffff
+    --black: #000000
+}
+
 .light-theme {
-    color: #000000;
-    background: #00FF00; 
+    --bg: var(--green);
+    --fontColor: var(--green);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
 }

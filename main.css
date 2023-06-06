@@ -1,14 +1,21 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
 * {
     color: var(--fontColor);
     font-family: helvetica;
 }
+
 
 body {
     background: var(--bg);
 }
     
 ul { 
-    font-family: helvética;
+    font-family: helvetica;
 }
 
 li {
@@ -19,11 +26,6 @@ li {
     list-style: square;
  }
 
-:root {
-    --green: #00FF00
-    --white: #ffffff
-    --black: #000000
-}
 
 .light-theme {
     --bg: var(--green);
@@ -52,3 +54,4 @@ li {
 }
 
 .btn:focus {outline-style: none;}
+

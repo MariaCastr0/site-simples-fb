@@ -19,10 +19,6 @@ li {
     list-style: square;
  }
 
-#msg {
-    font-family: monospace;
-}
-
 :root {
     --green: #00FF00
     --white: #ffffff
@@ -31,7 +27,7 @@ li {
 
 .light-theme {
     --bg: var(--green);
-    --fontColor: var(--green);
+    --fontColor: var(--black);
 }
 
 .dark-theme {
